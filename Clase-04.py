@@ -1,5 +1,8 @@
 from tkinter import *
 
+#esta aplicacion se encarga de crear una ventana con dos entradas de texto y un boton para saludar
+
+#Crear la ventana
 root = Tk()
 root.title("Entrada")
 root.geometry("400x300")
