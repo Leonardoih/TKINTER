@@ -1,12 +1,14 @@
 from tkinter import *
+#esta aplicacion se encarga de crear una ventana con dos entradas de texto y un boton para saludar
 
+#crear la ventana
 root =Tk()
 root.title("Radiosbuttons")
 root.geometry("400x300")
 root.config(bg="goldenrod3")
 root.resizable(0,0)
 
-
+#funcion para realizar la operacion
 def operacion():
     numero = int(entrada1.get())
     if opcion.get() == 1:
@@ -30,7 +32,7 @@ num= IntVar()
 
 
 
-
+#crear etiquetas y entradas
 etiqueta1 = Label(root, text = " Escribe tu numero" , bg="goldenrod3", bd=5)
 etiqueta1.place(x=20, y = 20)
 
